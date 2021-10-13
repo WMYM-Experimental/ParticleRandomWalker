@@ -93,8 +93,8 @@ function init() {
   particlesArray = [];
   for (let i = 0; i < 800; i++) {
     let radius = 0.1;
-    let x = getRandomInt(20, canvas.width - this.radius);
-    let y = getRandomInt(0, canvas.height - this.radius);
+    let x = getRandomInt(20, canvas.width - radius);
+    let y = getRandomInt(0, canvas.height - radius);
     let directionX = getRandomInt(-3, 3);
     let directionY = getRandomInt(-3, 3);
     particlesArray.push(
