@@ -22,7 +22,7 @@ addEventListener("resize", () => {
 //refresh
 document.addEventListener("keydown", (event) => {
   if (event.code === "Space") {
-    ctx.clearRect(0, 0, canvas.width, canvas.height); //refresh canvas;
+    //ctx.clearRect(0, 0, canvas.width, canvas.height); //refresh canvas;
   }
 });
 
